@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Este es para indicar el tipado -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Taller Verano</title>
-        <link rel="stylesheet" href="./index.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Verano</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
         <header class="header">
-            <h1 class="nombre">Andres Felipe Diaz</h1>
-            <p class="titulo">Desarrollador FullStack</p>
-            <p class="titulo">Cambios en Develop</p>
+            <div class="header-content">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de Andres" class="avatar">
+                <h1 class="nombre">Andres Felipe Diaz</h1>
+                <div class="titulos">
+                    <p class="titulo"><i class="fa-solid fa-code"></i> Desarrollador Frontend & FullStack</p>
+                </div>
+            </div>
         </header>
 
         <nav class="navegacion">
             <ul class="nav-list">
-                <li ><a class="nav-link" href="#">Sobre Ti</a></li>
-                <li ><a class="nav-link" href="./proyectos.html">Proyectos</a></li>
-                <li ><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                
+                <li><a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Sobre Mi</a></li>
+                <li><a class="nav-link" href="./proyectos.html"><i class="fa-solid fa-diagram-project"></i> Proyectos</a></li>
+                <li><a class="nav-link" href="./contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
             </ul>
         </nav>
-        <main>
+
+        <main class="main">
             <section class="seccion">
-                <h2 class="seccion-titulo">Sobre Mi</h2>
-                <p class="seccion-texto">Developer in ReactJS, Angular 8+, React-Native, Java SpringBoot, JavaScript, Wordpress, HTML5 and CSS3. Experience with Git version control technologies such as GitHub. I have worked on projects under agile methodologies such as SCRUM. </p>
+                <div class="tarjeta glass">
+                    <h2 class="seccion-titulo"><i class="fa-solid fa-user-astronaut"></i> Sobre Mi</h2>
+                    <p class="seccion-texto">
+                        ¡Hola! Soy Andres Felipe Diaz, apasionado por la tecnología y el desarrollo de software. Me considero una persona proactiva, creativa y siempre dispuesta a aprender cosas nuevas. Disfruto colaborar en equipos multidisciplinarios y aportar soluciones innovadoras a los retos que se presentan.
+                    </p>
+                </div>
+                <div class="tarjeta glass">
+                    <h3 class="subtitulo"><i class="fa-solid fa-laptop-code"></i> Habilidades</h3>
+                    <ul class="lista-habilidades">
+                        <li><i class="fa-brands fa-react"></i> ReactJS, <i class="fa-brands fa-angular"></i> Angular 8+, HTML5, CSS3, JavaScript</li>
+                        <li><i class="fa-brands fa-node-js"></i> Node.js, Java SpringBoot</li>
+                        <li><i class="fa-brands fa-git-alt"></i> Git, GitHub</li>
+                        <li><i class="fa-solid fa-users"></i> SCRUM</li>
+                        <li><i class="fa-brands fa-wordpress"></i> WordPress y maquetación web</li>
+                    </ul>
+                </div>
+                <div class="tarjeta glass">
+                    <h3 class="subtitulo"><i class="fa-solid fa-graduation-cap"></i> Formación</h3>
+                    <p class="seccion-texto">
+                        Ingeniero de Sistemas, con formación continua en nuevas tecnologías y herramientas de desarrollo web y móvil.
+                    </p>
+                </div>
+                <div class="tarjeta glass">
+                    <h3 class="subtitulo"><i class="fa-solid fa-heart"></i> Intereses</h3>
+                    <ul class="lista-intereses">
+                        <li><i class="fa-solid fa-brain"></i> Aprender nuevos lenguajes y frameworks</li>
+                        <li><i class="fa-solid fa-people-group"></i> Participar en comunidades tecnológicas</li>
+                        <li><i class="fa-solid fa-robot"></i> Automatización y optimización de procesos</li>
+                        <li><i class="fa-solid fa-music"></i> Música, <i class="fa-solid fa-futbol"></i> deporte y <i class="fa-solid fa-plane"></i> viajes</li>
+                    </ul>
+                </div>
+                <div class="tarjeta glass">
+                    <h3 class="subtitulo"><i class="fa-solid fa-language"></i> Idiomas</h3>
+                    <ul class="lista-idiomas">
+                        <li><i class="fa-solid fa-flag"></i> Español (nativo)</li>
+                        <li><i class="fa-solid fa-language"></i> Inglés (intermedio-avanzado)</li>
+                    </ul>
+                </div>
             </section>
         </main>
-    </body>
+    </div>
+</body>
 </html>

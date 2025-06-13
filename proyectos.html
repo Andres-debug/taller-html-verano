@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Este es para indicar el tipado -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Taller Verano</title>
-        <link rel="stylesheet" href="./proyectos.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Verano</title>
+    <link rel="stylesheet" href="./proyectos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
         <header class="header">
-            <h1 class="nombre">Andres Felipe Diaz</h1>
-            <p class="titulo">Desarrollador FullStack</p>
+            <div class="header-content">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de Andres" class="avatar">
+                <h1 class="nombre">Andres Felipe Diaz</h1>
+                <div class="titulos">
+                    <p class="titulo"><i class="fa-solid fa-code"></i> Desarrollador FullStack</p>
+                </div>
+            </div>
         </header>
 
         <nav class="navegacion">
             <ul class="nav-list">
-                <li ><a class="nav-link" href="./index.html">Sobre Mi</a></li>
-                <li ><a class="nav-link" href="./proyectos.html">Proyectos</a></li>
-                <li ><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                
+                <li><a class="nav-link" href="./index.html"><i class="fa-solid fa-user"></i> Sobre Mi</a></li>
+                <li><a class="nav-link" href="./proyectos.html"><i class="fa-solid fa-diagram-project"></i> Proyectos</a></li>
+                <li><a class="nav-link" href="./contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
             </ul>
         </nav>
         
-        <main>
+        <main class="main">
             <section class="seccion">
-                <h2 class="seccion-titulo">Proyectos</h2>
-                <div class="proyecto">
-                    <h3 class="proyecto-titulo">Gestor de Tareas</h3>
-                    <p class="proyecto-descripcion">Aplicacion web para la gestion de tareas</p>
-                </div>
-                <div class="proyecto">
-                    <h3 class="proyecto-titulo">Landing para Empresa de Aseo</h3>
-                    <p class="proyecto-descripcion">Landing Page para empresa de Aseo Familiar</p>
-                </div>
-                <div class="proyecto">
-                    <h3 class="proyecto-titulo">Gestor de Cartera</h3>
-                    <p class="proyecto-descripcion">Aplicacion web para la gestion de Cartera de una empresa</p>
+                <div class="tarjeta glass">
+                    <h2 class="seccion-titulo"><i class="fa-solid fa-diagram-project"></i> Proyectos</h2>
+                    <div class="proyecto">
+                        <h3 class="proyecto-titulo"><i class="fa-solid fa-list-check"></i> Gestor de Tareas</h3>
+                        <p class="proyecto-descripcion">Aplicación web para la gestión de tareas.</p>
+                    </div>
+                    <div class="proyecto">
+                        <h3 class="proyecto-titulo"><i class="fa-solid fa-broom"></i> Landing para Empresa de Aseo</h3>
+                        <p class="proyecto-descripcion">Landing Page para empresa de Aseo Familiar.</p>
+                    </div>
+                    <div class="proyecto">
+                        <h3 class="proyecto-titulo"><i class="fa-solid fa-wallet"></i> Gestor de Cartera</h3>
+                        <p class="proyecto-descripcion">Aplicación web para la gestión de cartera de una empresa.</p>
+                    </div>
                 </div>
             </section>
         </main>
-    </body>
+    </div>
+</body>
 </html>

@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Este es para indicar el tipado -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Taller Verano</title>
-    </head>
-    <body>
-        <header>
-            <h1>Andres Felipe Diaz</h1>
-            <p>Desarrollador FullStack</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Verano</title>
+    <link rel="stylesheet" href="./contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de Andres" class="avatar">
+                <h1 class="nombre">Andres Felipe Diaz</h1>
+                <div class="titulos">
+                    <p class="titulo"><i class="fa-solid fa-code"></i> Desarrollador FullStack</p>
+                </div>
+            </div>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Sobre Mi</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-                
+        <nav class="navegacion">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="./index.html"><i class="fa-solid fa-user"></i> Sobre Mi</a></li>
+                <li><a class="nav-link" href="./proyectos.html"><i class="fa-solid fa-diagram-project"></i> Proyectos</a></li>
+                <li><a class="nav-link" href="./contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
             </ul>
         </nav>
-        <main>
-            <section>
-                <h2>Contacto</h2>
-                <p>Email: <a href="mailto:andres.diazmo@comunidad.iush.edu.co">Send Email</a></p>
-                <p>Linkedin <a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-diaz-monsalve-54407b1a3/"
-                target="_blank">Andres Diaz</a></p>
+        <main class="main">
+            <section class="seccion">
+                <div class="tarjeta glass">
+                    <h2 class="seccion-titulo"><i class="fa-solid fa-envelope"></i> Contacto</h2>
+                    <p class="seccion-texto">
+                        <i class="fa-solid fa-envelope"></i> Email: <a href="mailto:andres.diazmo@comunidad.iush.edu.co">andres.diazmo@comunidad.iush.edu.co</a>
+                    </p>
+                    <p class="seccion-texto">
+                        <i class="fa-brands fa-linkedin"></i> Linkedin: <a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-diaz-monsalve-54407b1a3/" target="_blank">Andres Diaz</a>
+                    </p>
+                </div>
             </section>
         </main>
-    </body>
+    </div>
+</body>
 </html>
