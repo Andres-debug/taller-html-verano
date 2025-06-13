@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color:#333;
+}
+
+.header{
+    background-color: #0033a0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nombre{
+    margin: 0;
+    font-size: 2em;
+}
+
+.titulo{
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+.navegacion{
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-link{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.seccion{
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.seccion-titulo{
+    color: #0033a0;
+}
+
+.proyecto{
+    margin-bottom: 20px;
+}
+
+.proyecto-titulo{
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #222;
+}
+
+.proyecto-descripcion{
+    margin:0;
+}
