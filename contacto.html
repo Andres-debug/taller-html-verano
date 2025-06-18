@@ -26,17 +26,27 @@
                 <li><a class="nav-link" href="./contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
             </ul>
         </nav>
-        <main class="main">
-            <section class="seccion">
-                <div class="tarjeta glass">
-                    <h2 class="seccion-titulo"><i class="fa-solid fa-envelope"></i> Contacto</h2>
-                    <p class="seccion-texto">
-                        <i class="fa-solid fa-envelope"></i> Email: <a href="mailto:andres.diazmo@comunidad.iush.edu.co">andres.diazmo@comunidad.iush.edu.co</a>
-                    </p>
-                    <p class="seccion-texto">
-                        <i class="fa-brands fa-linkedin"></i> Linkedin: <a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-diaz-monsalve-54407b1a3/" target="_blank">Andres Diaz</a>
-                    </p>
-                </div>
+        <main class="form">
+           <h1 class="form__title">Formulario de Contacto</h1>
+
+           <form class="form__container" novalidate>
+            <div class="form__group">
+                <input type="text" id="nombre" name="nombre" class="form__input"
+                placeholder="Ingrese su nombre" required minlength="3">
+                <label for="nombre" class="form__label">Nombre</label>
+            </div>
+            <div class="form__group">
+                <input type="email" id="correo" name="correo" class="form__input"
+                placeholder="Ingrese su correo" required>
+                <label for="correo" class="form__label">Correo</label>
+            </div>
+            <div class="form__group">
+                <input type="password" id="clave" name="clave" class="form__input"
+                placeholder="Ingrese su contraseña" required minlength="6">
+                <label for="clave" class="form__label">Contraseña</label>
+            </div>
+            <button type="submit" class="form__button">Enviar</button>
+           </form>
             </section>
         </main>
     </div>
