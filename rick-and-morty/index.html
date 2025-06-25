@@ -16,6 +16,16 @@
         h1{
             color: #2c3e50
         }
+
+        input[type="text"]{
+            padding:0.5rem 1rem ;
+            width: 350px;
+            font-size: 1rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 1rem;
+
+        }
         #personajes{
             display: flex;
             flex-wrap: wrap;
@@ -46,10 +56,15 @@
             margin: 0.3rem 0;
             color:#555;
         }
+        .mensaje{
+            color: red;
+            margin-top: 1rem;
+        }
     </style>
 </head>
 <body>
     <h1>Personajes de Rick and Morty</h1>
+    <input type="text" id="busqueda" placeholder="Escribe un nombre y presiona enter">
     <div id="personajes"></div>
     <script src="script.js"></script>
 </body>
