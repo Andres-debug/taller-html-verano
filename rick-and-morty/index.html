@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin:0;
+            padding: 1rem;
+            text-align: center;
+        }
+        h1{
+            color: #2c3e50
+        }
+        #personajes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .card{
+            background: white;
+            border-radius: 8px;
+            width: 200px;
+            padding: 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img{
+            width: 100;
+            border-radius: 6px;
+        }
+
+        .card h3{
+            margin: 0.5rem 0 0;
+            font-size: 1.1rem;
+        }
+
+        .card p{
+            margin: 0.3rem 0;
+            color:#555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personajes de Rick and Morty</h1>
+    <div id="personajes"></div>
+    <script src="script.js"></script>
+</body>
+</html>
